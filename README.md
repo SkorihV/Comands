@@ -12,7 +12,10 @@ npm install babel-cli babel-core babel-preset-es2015 --save-dev   - устано
 
 
   "scripts": {
-    "bild": "babel src -d -dist -presets es2015",   -  "src" название папки в корне откуда будет браться код es2015 и "-dist" куда он будет компелироваться в старом формате.
-    "watch": "babel src -d -dist -presets es2015 -w"  - автоматическое компилирование после сохранения. 
+    "bild": "babel src -d -dist -presets es2015",
+    "watch": "babel src -d -dist -presets es2015 -w"
   },
  
+"bild": "babel src -d -dist -presets es2015",   -  "src" название папки в корне откуда будет браться код es2015 и "-dist" куда он будет компелироваться в старом формате.
+ 
+ "watch": "babel src -d -dist -presets es2015 -w"  - автоматическое компилирование после сохранения. 
