@@ -19,3 +19,7 @@ npm install babel-cli babel-core babel-preset-es2015 --save-dev   - устано
 "bild": "babel src -d -dist -presets es2015",   -  "src" название папки в корне откуда будет браться код es2015 и "-dist" куда он будет компелироваться в старом формате.
  
  "watch": "babel src -d -dist -presets es2015 -w"  - автоматическое компилирование после сохранения. 
+
+
+npm run bild  - запуск  билда
+npm run watch - запуск смотрителя 
