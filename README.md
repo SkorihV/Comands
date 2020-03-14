@@ -28,18 +28,18 @@ npm run watch - запуск смотрителя
 
 Команды GIT
 
-git -inint   - создать репазиторий гит
-echo >> README.md - создаем папку 
-git config --local user.email "тут вводим емаил"
-git config --local user.name "тут вводим имя"
+git -inint   - создать репазиторий гит</br>
+echo >> README.md - создаем папку </br>
+git config --local user.email "тут вводим емаил"</br>
+git config --local user.name "тут вводим имя"</br>
 
-git add -A  - добавляем все файлы в гит
-git status
+git add -A  - добавляем все файлы в гит</br>
+git status</br>
 
-git commit -a -m "Первый коммит"  - добавляем коммит
-git add *.html   -добавляем только файлы формата 
+git commit -a -m "Первый коммит"  - добавляем коммит</br>
+git add *.html   -добавляем только файлы формата </br>
 
-git log
+git log</br>
  
 
 
