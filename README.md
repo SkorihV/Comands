@@ -5,6 +5,7 @@
 
 npm init -y  - установка самого NPM в папку с проектом </br>
 npm install babel-cli babel-core babel-preset-es2015 --save-dev   - установка Babel находясь в корне проекта
+npx babel src --out-dir dist   - добавление соответствующих папок
 
 
 
