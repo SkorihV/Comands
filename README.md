@@ -7,7 +7,12 @@ npm init -y  - установка самого NPM в папку с проект
 npm install babel-cli babel-core babel-preset-es2015 --save-dev   - установка Babel находясь в корне проекта</br>
 npx babel src --out-dir dist   - добавление соответствующих папок</br>
 
+npm i bootstrap --save--dev   - усиаервмит будстрап </br>
 
+npm uninstall bootstrap   -  удалить установленный пакет </br>
+
+
+npm i   -  установить все пакеты которые есть в package.json - если он есть как отдельный файл со сборкой проекта.
 
 Для файла packadge.json изменить
 
