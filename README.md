@@ -22,13 +22,15 @@ npm i   -  установить все пакеты которые есть в p
     "watch": "babel src -d -dist -presets es2015 -w"</br>
   },
  
-"bild": "babel src -d -dist -presets es2015",   -  "src" название папки в корне откуда будет браться код es2015 и "-dist" куда он будет компелироваться в старом формате.
+"build": "babel src -d -dist -presets es2015",   -  "src" название папки в корне откуда будет браться код es2015 и "-dist" куда он будет компелироваться в старом формате.
  
  "watch": "babel src -d -dist -presets es2015 -w"  - автоматическое компилирование после сохранения. 
 
 
-npm run bild  - запуск  билда
-npm run watch - запуск смотрителя 
+npm run build  - запуск  билда</br>
+npm run watch - запуск смотрителя </br>
+
+npm run dev  - запуск веб сервера</br>
 
 
 
