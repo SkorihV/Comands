@@ -11,6 +11,9 @@ npm i bootstrap --save--dev   - усиаервмит будстрап </br>
 
 npm uninstall bootstrap   -  удалить установленный пакет </br>
 
+
+npm install axios
+
 ---------------------
 HtmlWebpackPlugin. Этот плагин также позволяет автоматически встраивать в html созданные вебпаком бандлы.</br>
 
