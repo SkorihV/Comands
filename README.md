@@ -54,20 +54,29 @@ echo >> README.md - создаем папку </br>
 git config --local user.email "тут вводим емаил"</br>
 git config --local user.name "тут вводим имя"</br>
 
+
 git add -A  - добавляем все файлы в гит</br>
+git commit -m "initial commit"</br>
+
 git status</br>
 
 git commit -a -m "Первый коммит"  - добавляем коммит</br>
 git add *.html   -добавляем только файлы формата </br>
 
+git push origin master
+
 git log</br>
  
 
+git remote add origin https://github.com/SkorihV/tickets-project.git   - привязка локального хранилища к виртуальному </br>
 
 
 {
  	"word_separators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
 }
+
+
+
 
 
 
