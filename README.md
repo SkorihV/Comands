@@ -62,8 +62,8 @@ npm run dev  - запуск веб сервера</br>
 
 git -inint   - создать репазиторий гит</br>
 echo >> README.md - создаем папку </br>
-git config --local user.email "тут вводим емаил"</br>
-git config --local user.name "тут вводим имя"</br>
+git config --local(--global) user.email "тут вводим емаил"</br>
+git config --local(--global) user.name "тут вводим имя"</br>
 
 
 git add -A  - добавляем все файлы в гит</br>
@@ -74,16 +74,28 @@ git commit -a -m "Первый коммит"  - добавляем коммит<
 
 git status</br>
 
+git checkout -b название_ветки  - создать и перейти в новую ветку (команда разовая)</br>
+git checkout название_ветеки - просто перейти на другую ветку </br>
 
+Чтобы соединить ветки:
+git checkout master - перейти в ветку master</br>
+git merge название_ветки_которую_сливаем_с_мастером</br>
+
+git branch -D название_ветки - удаление ветки</br>
 
 
 git push origin master
+
+git branch - показывает какие ветки сейчас существуют</br>
+git branch -v - увидим ветки и часть хеша коммита</br>
 
 git log  - показывает все коммиты сделанные в данной ветке</br>
 gi cat-file -p ***** - посмотреть какие файлы есть. в звездочках первые пять сиволов названия файла с хешом.</br>
  
 
 git remote add origin https://github.com/SkorihV/tickets-project.git   - привязка локального хранилища к виртуальному где "tickets-project.git" это название проекта </br>
+
+
 
 
 {
