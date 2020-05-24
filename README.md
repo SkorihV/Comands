@@ -65,19 +65,23 @@ git config --local user.name "тут вводим имя"</br>
 
 
 git add -A  - добавляем все файлы в гит</br>
-git commit -m "initial commit"</br>
+git add *.html   -добавляем только файлы формата </br>
+
+git commit -m "Сообщение к коммиту"</br>
+git commit -a -m "Первый коммит"  - добавляем коммит</br>
 
 git status</br>
 
-git commit -a -m "Первый коммит"  - добавляем коммит</br>
-git add *.html   -добавляем только файлы формата </br>
+
+
 
 git push origin master
 
-git log</br>
+git log  - показывает все коммиты сделанные в данной ветке</br>
+gi cat-file -p ***** - посмотреть какие файлы есть. в звездочках первые пять сиволов названия файла с хешом.</br>
  
 
-git remote add origin https://github.com/SkorihV/tickets-project.git   - привязка локального хранилища к виртуальному </br>
+git remote add origin https://github.com/SkorihV/tickets-project.git   - привязка локального хранилища к виртуальному где "tickets-project.git" это название проекта </br>
 
 
 {
