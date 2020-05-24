@@ -30,6 +30,7 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin');  добавить 
 > npm i -D  html-webpack-plugin</br>
 
 Используем флаг -D (save-dependencies) потому, что этот пакет нам нужен только для этапа разработки. Для функционирования конечного приложения этот пакет не нужен.</br>
+
 -------------------
 
 
@@ -57,6 +58,7 @@ npm run dev  - запуск веб сервера</br>
 
 
 Команды GIT
+----
 
 git -inint   - создать репазиторий гит</br>
 echo >> README.md - создаем папку </br>
