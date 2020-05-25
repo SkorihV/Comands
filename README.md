@@ -16,7 +16,7 @@
 `npm install axios`
 
 
-## eslint плагин для автоматической проверки ошибок
+### eslint плагин для автоматической проверки ошибок
 `npm i --save--dev eslint`  - установка плагина который будет проверять код на js на ошибки по спецификации airbnb  
 `npm i --save--dev eslint-config-airbnb eslint-plugin-html eslint-plugin-import eslint-plugin-jsx-a11y`  
 `npm i --save--dev eslint-config-prettier eslint-plugin-prettier prettier`  
@@ -57,12 +57,13 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin');  добавить 
 
 Для файла packadge.json изменить
 
-```
+`
   "scripts": {</br>
     "bild": "babel src -d -dist -presets es2015",</br>
     "watch": "babel src -d -dist -presets es2015 -w"</br>
   },
- ```
+`
+
 `"build": "babel src -d -dist -presets es2015",`   -  "src" название папки в корне откуда будет браться код es2015 и "-dist" куда он будет компелироваться в старом формате.
  
 ` "watch": "babel src -d -dist -presets es2015 -w"`  - автоматическое компилирование после сохранения. 
@@ -75,7 +76,7 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin');  добавить 
 
 
 
-## Команды GIT
+### Команды GIT
 
 ----
 
@@ -103,7 +104,7 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin');  добавить 
 
 `git pull origin название_ветки` - скачать обновления с репозитория</br>
 
-## Чтобы соединить ветки:</br>
+### Чтобы соединить ветки:</br>
 
 --------
 `git checkout master` - перейти в ветку master</br>
