@@ -13,8 +13,21 @@
 
 `npm uninstall bootstrap`   -  удалить установленный пакет </br>
 
-
 `npm install axios`
+
+
+## eslint плагин для автоматической проверки ошибок
+`npm i --save--dev eslint`  - установка плагина который будет проверять код на js на ошибки по спецификации airbnb  
+`npm i --save--dev eslint-config-airbnb eslint-plugin-html eslint-plugin-import eslint-plugin-jsx-a11y`  
+
+нужно создать файл вида `.eslintrc` и в нем создать объект вида:  
+
+````JSON  
+{
+  "extends": ["airbnb/base"]
+}
+
+`  
 
 ---------------------
 HtmlWebpackPlugin. Этот плагин также позволяет автоматически встраивать в html созданные вебпаком бандлы.</br>
