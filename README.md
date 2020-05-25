@@ -19,15 +19,18 @@
 ## eslint плагин для автоматической проверки ошибок
 `npm i --save--dev eslint`  - установка плагина который будет проверять код на js на ошибки по спецификации airbnb  
 `npm i --save--dev eslint-config-airbnb eslint-plugin-html eslint-plugin-import eslint-plugin-jsx-a11y`  
+`npm i --save--dev eslint-config-prettier eslint-plugin-prettier prettier`  
 
 нужно создать файл вида `.eslintrc` и в нем создать объект вида:  
 
-````JSON  
+`  
 {
   "extends": ["airbnb/base"]
 }
 
 `  
+
+ещё можно создать файл `.eslintignore` в нем записывать файлы которые не нужно проверять.  
 
 ---------------------
 HtmlWebpackPlugin. Этот плагин также позволяет автоматически встраивать в html созданные вебпаком бандлы.</br>
