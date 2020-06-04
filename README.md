@@ -133,9 +133,9 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin');  добавить 
 }
 
 
-####.editorconfig
-`
+####.editorconfig  
 
+`
 [*.{js,jsx,ts,tsx,vue}]  
 indent_style = space  
 indent_size = 2  
@@ -144,8 +144,20 @@ trim_trailing_whitespace = true
 insert_final_newline = true  
 max_line_length = 100  
 
-
 `
 
+
+### Разширения для VSC
+
+Better Comments  
+Bracket Pair Colorizer  
+ESLint 
+GitLens — Git supercharged  
+Live Server  
+PowerShell  
+Prettier Formatter for Visual Studio Code  
+Project Manager 
+Russian Language Pack for Visual Studio Code  
+Vetur  
 
 
