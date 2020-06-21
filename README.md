@@ -164,5 +164,7 @@ Prettier Formatter for Visual Studio Code
 Project Manager 
 Russian Language Pack for Visual Studio Code  
 Vetur  
+Auto Import - ES6, TS, JSX, TSX  
+ 
 
 
