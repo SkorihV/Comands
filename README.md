@@ -20,6 +20,7 @@
 ## React start *************
 
 `npm install prop-types`  - библиотека для определения входящих свойств компонентов props
+`import PropTypes from 'prop-types'`
 
 ## React finish *************
 
