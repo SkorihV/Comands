@@ -175,5 +175,11 @@ Russian Language Pack for Visual Studio Code
 Vetur  
 Auto Import - ES6, TS, JSX, TSX  
  
+ 
+ 
+ ### Bash
+ 
+ Открыть Bash здесь https://gist.github.com/Korveld/2f3895dd5e47b92ec241305effbb4a72
+ 
 
 
