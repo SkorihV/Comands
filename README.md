@@ -182,4 +182,16 @@ Auto Import - ES6, TS, JSX, TSX
  Открыть Bash здесь https://gist.github.com/Korveld/2f3895dd5e47b92ec241305effbb4a72
  
 
+[client]  
+host     = localhost  
+user     = debian-sys-maint  
+password = O1YuWbozDTAd6cm1  
+socket   = /var/run/mysqld/mysqld.sock  
+[mysql_upgrade]  
+host     = localhost  
+user     = debian-sys-maint  
+password = O1YuWbozDTAd6cm1  
+socket   = /var/run/mysqld/mysqld.sock  
+~                                       
+
 
