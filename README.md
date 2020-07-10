@@ -195,3 +195,8 @@ socket   = /var/run/mysqld/mysqld.sock
 ~                                       
 
 
+Подключиться к mysql
+
+`mysql -u root -p`
+
+
