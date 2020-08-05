@@ -198,5 +198,7 @@ socket   = /var/run/mysqld/mysqld.sock
 Подключиться к mysql
 
 `mysql -u root -p`
+php -S 127.0.0.10888 -t public
+
 
 
