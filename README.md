@@ -214,5 +214,6 @@ socket   = /var/run/mysqld/mysqld.sock
 
 php -S 127.0.0.1:10888 -t public
 
+https://rtfm.co.ua/mysql-commands/ - команды по mysql
 
 
