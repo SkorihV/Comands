@@ -250,11 +250,13 @@ symfony console list make  -  выводит список всех команд 
 
 symfony var:export  - просмотр переменных окружения 
 
+symfony console make:entity НазваниеКлассаСущности - создание класса сущности  
+
 
 ## req - добавление зависимостей
 symfony composer req annotations  - Для работы с аннотациями нужно добавить ещё одну зависимость
 
-symfony console make:controller НазваниеКонтроллера  - создание класса контролера. В дериктории src/Controller/
+symfony console make:controller НазваниеКонтроллера  - создание класса контролера. В дериктории src/Controller/  
 symfony composer req orm  - установка библиотеки по управлению БД
 
 
