@@ -231,3 +231,44 @@ sudo apt update
 sudo apt -y install php7.2 php7.2-fpm php7.2-mysql php7.2-mbstring php7.2-xml php7.2-gd php7.2-curl php-common php7.2-cli php7.2-common php7.2-json php7.2-opcache php7.2-readline  
 sudo apt -y install php libapache2-mod-php  
 
+https://gitlab.com/dev-coach/myapp/-/blob/master/back/Dockerfile
+
+
+
+## Symfony  
+
+symfony server:start -d - запуск сервера
+
+symfony composer req profiler --dev   - Symfony Profiler поможет сэкономить много времени в поиске источника проблемы  
+symfony composer req logger  - логирование действий  
+symfony composer req debug --dev   - инструмент отладки  
+
+symfony server:log - зупуск просмотра логов в реальном времени в командной строке   
+
+symfony composer req maker --dev  -  Для лёгкой генерации контроллеров  
+symfony console list make  -  выводит список всех команд в указанном пространстве имен
+
+symfony var:export  - просмотр переменных окружения 
+
+
+## req - добавление зависимостей
+symfony composer req annotations  - Для работы с аннотациями нужно добавить ещё одну зависимость
+
+symfony console make:controller НазваниеКонтроллера  - создание класса контролера. В дериктории src/Controller/
+symfony composer req orm  - установка библиотеки по управлению БД
+
+
+## Docker Compose
+
+docker-compose up -d - запуск  
+docker-compose ps  - проверить что все работает нормально. Должен быть статус up
+docker-compose logs  
+
+
+
+## PostgreSQL
+
+symfony run psql - запуск  
+
+
+
