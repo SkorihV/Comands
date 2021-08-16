@@ -251,6 +251,7 @@ symfony console list make  -  выводит список всех команд 
 symfony var:export  - просмотр переменных окружения 
 
 symfony console make:entity НазваниеКлассаСущности - создание класса сущности  
+symfony console make:entity ПовторноеНазваниеКлассаСущности - для создание связей между таблицами нужно повторно вызвать функцию создания класса, но уже к существующему классу.  
 
 
 ## req - добавление зависимостей
@@ -270,7 +271,8 @@ docker-compose logs
 
 ## PostgreSQL
 
-symfony run psql - запуск  
+symfony run psql - запуск 
+sudo -u postgres psql
 
 
 
