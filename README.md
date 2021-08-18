@@ -262,7 +262,8 @@ symfony console doctrine:migrations:migrate - орбновление локал�
 
 symfony composer req profiler --dev   - Symfony Profiler поможет сэкономить много времени в поиске источника проблемы  
 symfony composer req logger  - логирование действий  
-symfony composer req debug --dev   - инструмент отладки  
+symfony composer req debug --dev   - инструмент отладки
+
 
 symfony composer req annotations  - Для работы с аннотациями нужно добавить ещё одну зависимость
 
