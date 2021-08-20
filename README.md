@@ -253,6 +253,8 @@ symfony console make:controller НазваниеКонтроллера  - соз
 symfony console make:entity НазваниеКлассаСущности - создание класса сущности  
 symfony console make:entity ПовторноеНазваниеКлассаСущности - для создание связей между таблицами нужно повторно вызвать функцию создания класса, но уже к существующему классу.  
 
+symfony console debug:router  
+
 
 Миграция — это класс, описывающий изменения, необходимые для обновления схемы базы данных с текущего состояния на новое, определённой в аннотациях сущности.   
 symfony console make:migration - миграция данных из классов в виде sql таблицы  
@@ -285,7 +287,8 @@ docker-compose logs
 ## PostgreSQL
 
 symfony run psql - запуск 
-sudo -u postgres psql
+
+sudo -u postgres psql  - вход в срезу командной строки  
 
 \du - список всех пользователей.   
 \? перечислить все команды  
@@ -298,4 +301,15 @@ sudo -u postgres psql
 \q выйти из psql  
 
 
+Основные команды взяты отсюда https://edu.postgrespro.ru/introbook_v6.pdf  
 
+CREATE DATABASE [название базы данных];  - создание базы данных  
+\c [название базы данных] - переключиться на базу данных  
+table courses ( c_no text primary key, title text, hours integer);  
+INSERT INTO courses(c_no, title, hours) VALUES ('cs301', 'Базы данных', 30); - добавление данных в существующую таблицу  
+SELECT title AS course_title, hours FROM courses;  - выборка данных  
+SELECT * FROM courses;  - выбрать все данные из таблицы
+"title AS course_title"  - переименовывает столбец при выводе данных  
+SELECT DISTINCT start_year FROM students;   - DISTINCT - вывести уникальные поля  
+SELECT * FROM courses WHERE hours > 45;  
+SELECT courses.title, exams.s_id, exams.score FROM courses, exams WHERE courses.c_no = exams.c_no; 
