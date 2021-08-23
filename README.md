@@ -241,7 +241,11 @@ https://gitlab.com/dev-coach/myapp/-/blob/master/back/Dockerfile
 symfony server:start -d - запуск сервера
 symfony server:log - зупуск просмотра логов в реальном времени в командной строке   
 symfony server:status  
+
 symfony run -d --watch=config,src,templates,vendor symfony console messenger:consume async  -- При использовании параметра --watch Symfony перезапускает команду каждый раз при изменении файловой системы в директориях config/, src/, templates/ или vendor/.  
+symfony console messenger:stop-workers  - остановить воркеры в том числе и watch'ер  
+
+symfony open:local:webmail - доступ к почтовому серверу  
 
 
 
@@ -271,6 +275,7 @@ symfony composer req validator - добавляе добавляем завис�
 symfony composer req phpunit --dev  - добавляем модуль тестирования PHPunit  
 symfony composer req "dama/doctrine-test-bundle:^6" --dev   -   Для очистки базы данных между прогонами тестов  
 symfony composer req messenger -- Компонент Messenger управляет асинхронным кодом в Symfony  
+symfony composer req mailer  - модуль для электронной почты
 
 
 symfony composer req annotations  - Для работы с аннотациями нужно добавить ещё одну зависимость
