@@ -224,6 +224,8 @@ products | CREATE TABLE `products` ( `id` int(11) NOT NULL AUTO_INCREMENT,`name`
 ## Composer
 
 `composer update the-package/you-want-to-update`  - обновление зависимостей добавленных в ручну в composer.json
+composer dumpautoload  - включение автозагрузки классов при соответствующей установки в конфигурации  
+
 
 
 ## Установка php и т.д.
