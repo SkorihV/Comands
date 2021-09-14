@@ -236,6 +236,7 @@ sudo apt -y install php libapache2-mod-php
 
 https://gitlab.com/dev-coach/myapp/-/blob/master/back/Dockerfile
 
+php -m  - выводит список установленных разрешений  
 
 
 ## Symfony  
