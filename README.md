@@ -217,7 +217,19 @@ php -S 127.0.0.1:10888 -t public
 
 https://rtfm.co.ua/mysql-commands/ - команды по mysql
 
-products | CREATE TABLE `products` ( `id` int(11) NOT NULL AUTO_INCREMENT,`name` varchar(255) NOT NULL,`price` int(11) DEFAULT '0',`article` varchar(255) NOT NULL DEFAULT '',`currency` varchar(255) NOT NULL DEFAULT 'RUB',`amount` int(11) DEFAULT '0',`body` varchar(255) NOT NULL DEFAULT '',`weight` int(11) NOT NULL DEFAULT '0',`unitWeight` varchar(255) NOT NULL DEFAULT 'г',PRIMARY KEY (`id`)) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+products | CREATE TABLE `products` 
+        ( 
+          `id` int(11) NOT NULL AUTO_INCREMENT,
+          `name` varchar(255) NOT NULL,
+          `price` int(11) DEFAULT '0',
+          `article` varchar(255) NOT NULL DEFAULT '',
+          `currency` varchar(255) NOT NULL DEFAULT 'RUB',
+          `amount` int(11) DEFAULT '0',
+          `body` varchar(255) NOT NULL DEFAULT '',
+          `weight` int(11) NOT NULL DEFAULT '0',
+          `unitWeight` varchar(255) NOT NULL DEFAULT 'г',
+          PRIMARY KEY (`id`)
+        ) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
 
 
 
