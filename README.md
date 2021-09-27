@@ -261,6 +261,9 @@ symfony server:start -d - запуск сервера
 symfony server:log - зупуск просмотра логов в реальном времени в командной строке   
 symfony server:status  
 
+symfony serve --port=8010 -d  
+symfony proxy:start 
+
 symfony run -d --watch=config,src,templates,vendor symfony console messenger:consume async  -- При использовании параметра --watch Symfony перезапускает команду каждый раз при изменении файловой системы в директориях config/, src/, templates/ или vendor/.  
 symfony run -d yarn encore dev --watch  
 symfony console messenger:stop-workers  - остановить воркеры в том числе и watch'ер  
