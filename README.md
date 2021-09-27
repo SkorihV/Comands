@@ -248,7 +248,11 @@ sudo apt -y install php libapache2-mod-php
 
 https://gitlab.com/dev-coach/myapp/-/blob/master/back/Dockerfile
 
-php -m  - выводит список установленных разрешений  
+php -m  - выводит список установленных разрешений 
+
+php mycli.php    
+
+
 
 
 ## Symfony  
@@ -314,6 +318,10 @@ docker-compose up -d - запуск
 docker-compose ps  - проверить что все работает нормально. Должен быть статус up
 docker-compose logs  
 
+
+## MySQL
+
+mysql -ucodercc -p1 -h0.0.0.0 -P49153 codercc
 
 
 ## PostgreSQL
