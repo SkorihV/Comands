@@ -389,3 +389,11 @@ SELECT * FROM courses;  - выбрать все данные из таблицы
 SELECT DISTINCT start_year FROM students;   - DISTINCT - вывести уникальные поля  
 SELECT * FROM courses WHERE hours > 45;  
 SELECT courses.title, exams.s_id, exams.score FROM courses, exams WHERE courses.c_no = exams.c_no; 
+
+
+##В системе отчетов
+php bin/console app:createCurrentReport
+
+crontab -e
+0 1 1 * * php bin/console app:createCurrentReport
+
