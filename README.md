@@ -270,6 +270,7 @@ php -m  - выводит список установленных разреше�
 
 php mycli.php    
 
+sudo update-alternatives --config php   - смена версии php
 
 
 
