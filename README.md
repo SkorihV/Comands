@@ -398,3 +398,6 @@ php bin/console app:createCurrentReport
 crontab -e
 0 1 1 * * php bin/console app:createCurrentReport
 
+
+Запуск проекта - symfony proxy:start && docker-compose up -d && symfony serve --port=8010 -d
+
