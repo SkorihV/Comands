@@ -433,3 +433,11 @@ crontab -e
 
 Запуск проекта - symfony proxy:start && docker-compose up -d && symfony serve --port=8010 -d
 
+
+## LINUX Командная строка
+
+ `fuser -k 8080/tcp` -  Убить процессы на порту 8080 текущего юзера    </br>
+` lsof -ti tcp:8080` - Посмотреть какие процессы взаимодействуют с портом 8080    </br>
+
+
+
