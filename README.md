@@ -386,6 +386,8 @@ mysql -ucodercc -p1 -h0.0.0.0 -P49153 codercc
 symfony run psql - запуск 
 
 sudo -u postgres psql  - вход в срезу командной строки  
+sudo -i -u postgres
+
 
 \du - список всех пользователей.   
 \? перечислить все команды  
