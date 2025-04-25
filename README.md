@@ -193,9 +193,12 @@ git diff --name-only ветка1 ветка2 -  посмотреть не сам
 `git branch -v` - увидим ветки и часть хеша коммита</br>
 `git branch -a` - посмотреть ветки и на удаленном репозитории</br>
 
+`git fetch` - обновить информацию об удаленных ветках</br>
+`git branch -r` -  увидеть список всех удалённых веток</br>
 
-
- 
+Если вы знаете точное имя ветки, то достаточно:</br>
+ `git fetch origin`</br>
+ `git checkout` имя-ветки</br>
 
 `git remote add origin https://github.com/SkorihV/tickets-project.git`   - привязка локального хранилища к виртуальному где "tickets-project.git" это название проекта </br>
 `git remote -v`   - покажет к какому удаленному репозиторию привязан проект</br>
