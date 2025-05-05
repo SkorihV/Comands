@@ -392,6 +392,8 @@ symfony run psql - запуск
 sudo -u postgres psql  - вход в срезу командной строки  
 sudo -i -u postgres
 
+psql -U postgres -d bregis_lis11 -p 5433 -f minimal_dblis_etalon_20230819.sql
+
 
 \du - список всех пользователей.   
 \? перечислить все команды  
